@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+header, footer {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+#converter {
+    margin: 0 auto;
+    width: 90%; /* ajusta a largura para 90% do tamanho da tela */
+    max-width: 400px; /* define uma largura máxima */
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#temperatura, #scale, button {
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: darkred;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+footer {
+    margin-top: 200px;
+}
+
+footer h3 {
+    color: #ccc;
+}

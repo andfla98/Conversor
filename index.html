@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversor Temperatura</title>
+    <link rel="stylesheet" type="text/css" href="temperatura.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header><h3><em>Conversor de Temperatura</em><h3></header>
+    <div id="converter">
+        <input type="text" id="temperatura" placeholder="valor">
+        <select id="scale">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+        </select>
+        <button onclick="convertTemperature()">Converter</button>
+        <div id="result"></div>
+    </div>
+    <footer>
+        <h3>&copy;2024 Anderson Vieira</h3>
+    </footer>
+    <script src="temperatura.js"></script>
+</body>
+</html>
